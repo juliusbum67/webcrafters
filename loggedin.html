@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="stylesloggedin.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website!</h1>
+    </header>
+    <main>
+        <section class="welcome-section">
+            <h2>Welcome, <span id="username"></span>!</h2>
+            <p>You have successfully logged in. Explore the various sections of our website using the links below.</p>
+            <div class="links">
+                <a href="profile.html" class="btn">Profile</a>
+                <a href="dashboard.html" class="btn">Dashboard</a>
+                <a href="settings.html" class="btn">Settings</a>
+                <a href="logout.html" class="btn">Logout</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+    <script>
+        // Function to get query parameters from URL
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Get the username from the URL parameters
+        const username = getQueryParam('username');
+
+        // Insert the username into the page
+        document.getElementById('username').textContent = username;
+    </script>
+</body>
+</html>
