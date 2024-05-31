@@ -32,3 +32,17 @@
     flex-direction: column;
     gap: 15px;
 }
+
+#container-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+}
+
+#main-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
