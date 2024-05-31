@@ -28,4 +28,7 @@
 #form1 {
     height: 200px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
