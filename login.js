@@ -11,7 +11,7 @@ function getInfo() {
     for (var i = 0; i < objPeople.length;i++) {
         if (username == objPeople[i].username && password == objPeople[i].password) {
             console.log(username + "is logged in.")
-            window.location.href = "https://leander-10.github.io/leander-10.github.io/";
+            window.location.href = "main.html";
             return
         }
     }
