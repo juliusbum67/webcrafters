@@ -46,3 +46,8 @@ function register() {
     document.getElementById("reg_password").value = "";
     document.getElementById("reg_email").value = "";
 }
+
+document.getElementById('registerButton').addEventListener('click', function() {
+    document.getElementById('registrationDiv').style.display = 'block';
+    this.style.display = 'none';
+});
