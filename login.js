@@ -21,3 +21,23 @@ function getInfo() {
     }
     console.log("incorrect username or password")
 }
+
+function register() {
+    // Get the input values
+    var reg_username = document.getElementById("reg_username").value;
+    var reg_password = document.getElementById("reg_password").value;
+    var reg_email = document.getElementById("reg_email").value;
+
+    // Create a new user object
+    var newUser = {
+        username: reg_username,
+        password: reg_password,
+        email: reg_email
+    };
+
+    // Add the new user to the objPeople array
+    objPeople.push(newUser);
+
+    // Log the updated objPeople array
+    console.log(objPeople);
+}
