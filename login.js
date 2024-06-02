@@ -40,4 +40,9 @@ function register() {
 
     // Log the updated objPeople array
     console.log(objPeople);
+
+    // Clear the input fields
+    document.getElementById("reg_username").value = "";
+    document.getElementById("reg_password").value = "";
+    document.getElementById("reg_email").value = "";
 }
