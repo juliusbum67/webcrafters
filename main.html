@@ -2,17 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Main Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcrafters - Your Digital Craftsmen</title>
     <link rel="stylesheet" href="stylesmain.css">
 </head>
 <body>
-    <div>
-        <h1>This is the first version of this page!</h1>
-        <p>It is a simple page with no CSS or JavaScript.</p>
-        <div>
-            <a href="index.html">Go to Login Page!</a>
-        </div>
-        <h4>by Leander and Julian</h4>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="home">
+    <h1>Welcome to Webcrafters</h1>
+    <p>We are your digital craftsmen, building your online presence with precision and care. At Webcrafters, we turn your vision into a stunning reality, creating websites that not only look great but also perform flawlessly. Let's craft your digital masterpiece together.</p>
+</section>
+<section id="services">
+    <h2>Our Services</h2>
+    <p>At Webcrafters, we offer a comprehensive range of services to ensure your online success:</p>
+    <ul>
+        <li><strong>Website Design & Development:</strong> Custom designs tailored to your brand and optimized for all devices.</li>
+        <li><strong>E-commerce Solutions:</strong> Robust and scalable online stores that drive sales and enhance user experience.</li>
+        <li><strong>SEO & Digital Marketing:</strong> Strategies to increase your visibility and attract the right audience.</li>
+        <li><strong>Content Management Systems:</strong> Easy-to-use platforms for updating your content with ease.</li>
+        <li><strong>Website Maintenance & Support:</strong> Ongoing support to keep your site running smoothly and securely.</li>
+        <li><strong>UI/UX Design:</strong> Creating intuitive and engaging user experiences that keep visitors coming back.</li>
+    </ul>
+</section>
+<section id="portfolio">
+    <h2>Our Portfolio</h2>
+    <p>Explore some of our latest projects and see the quality of our work:</p>
+    <div class="portfolio-item">
+        <h3>Project Name</h3>
+        <p>Brief description of the project, highlighting the challenges and solutions provided by Webcrafters.</p>
+        <a href="project-link">View Project</a>
     </div>
+    <div class="portfolio-item">
+        <h3>Project Name</h3>
+        <p>Brief description of the project, highlighting the challenges and solutions provided by Webcrafters.</p>
+        <a href="project-link">View Project</a>
+    </div>
+</section>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Ready to start your project? Get in touch with us today!</p>
+    <form action="/process_form" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <p>Or reach us directly at:</p>
+    <p>Email: <a href="mailto:webcrafterscoding@gmail.com">webcrafterscoding@gmail.com</a></p>
+    <p>Phone: (123) 456-7890</p>
+</section>
+<footer>
+    <p>© 2024 Webcrafters. All rights reserved.</p>
+</footer>
 </body>
 </html>
