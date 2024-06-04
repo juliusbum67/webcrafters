@@ -4,6 +4,7 @@ const MENUITEMS = document.querySelectorAll('.menu-slider-icon');
 
 MENUITEMS.forEach(item => {
     item.addEventListener('click', function (e) {
+        console.log('Button clicked!');
         const BUTTON = findButtonInPath(e);
         moveSlider(SLIDER, findButtonXPosition(BUTTON));
         setAktivClass(BUTTON);
@@ -27,7 +28,7 @@ function findButtonXPosition(elm) {
 
 function findButtonInPath(event) {
     let element;
-    event.path.forEach(elm => {
+    event.composedPath().forEach(elm => {
         if (elm.classList) {
             if (elm.classList.contains('menu-slider-icon')) {
                 element = elm;
