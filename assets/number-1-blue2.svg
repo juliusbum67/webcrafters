@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="svg-snoweb svg-theme-light"
+   x="0"
+   y="0"
+   width="512"
+   height="512"
+   viewBox="0 0 511.99999 512"
+   preserveAspectRatio="xMidYMid"
+   version="1.1"
+   id="svg4"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+        
+            
+            
+            
+        
+
+        .svg-fill-primary {
+            fill: #00FFF1;
+        }
+
+        .svg-fill-secondary {
+            fill: #FFFFFF;
+        }
+
+        .svg-fill-tertiary {
+            fill: #FFFFFF;
+        }
+
+        .svg-stroke-primary {
+            stroke: #00FFF1;
+        }
+
+        .svg-stroke-secondary {
+            stroke: #FFFFFF;
+        }
+
+        .svg-stroke-tertiary {
+            stroke: #FFFFFF;
+        }
+    </style>
+  </defs>
+  <clipPath
+     id="clip-path-202406-0510-3916-5820edbf-0da8-41c4-8ad7-1b386d769564">
+    <rect
+       x="0"
+       y="95"
+       width="100"
+       height="5"
+       id="rect1" />
+  </clipPath>
+  <g
+     transform="matrix(0.6,0,0,0.6,20,20)"
+     id="g4"
+     style="display:none">
+    <path
+       d="m 57.31,23.416 v 53.85 c 0,0.99 -0.35,1.83 -1.05,2.53 -0.69,0.69 -1.59,1.04 -2.69,1.04 -1.11,0 -2,-0.35 -2.7,-1.04 -0.7,-0.7 -1.04,-1.54 -1.04,-2.53 v -47.65 l -9.05,5.46 c -0.52,0.29 -1.1,0.43 -1.74,0.43 -0.99,0 -1.83,-0.39 -2.52,-1.17 -0.7,-0.79 -1.05,-1.58 -1.05,-2.39 0,-1.28 0.61,-2.3 1.83,-3.05 l 14.18,-8.44 c 0.69,-0.4 1.56,-0.58 2.61,-0.52 0.98,0 1.77,0.33 2.35,1 0.58,0.67 0.87,1.49 0.87,2.48 z"
+       class="svg-fill-primary"
+       id="path3" />
+  </g>
+  <g
+     id="layer2">
+    <g
+       transform="matrix(8.2404628,0,0,8.2404628,-167.28921,-159.18883)"
+       id="g4-7">
+      <path
+         d="m 57.31,23.416 v 53.85 c 0,0.99 -0.35,1.83 -1.05,2.53 -0.69,0.69 -1.59,1.04 -2.69,1.04 -1.11,0 -2,-0.35 -2.7,-1.04 -0.7,-0.7 -1.04,-1.54 -1.04,-2.53 v -47.65 l -9.05,5.46 c -0.52,0.29 -1.1,0.43 -1.74,0.43 -0.99,0 -1.83,-0.39 -2.52,-1.17 -0.7,-0.79 -1.05,-1.58 -1.05,-2.39 0,-1.28 0.61,-2.3 1.83,-3.05 l 14.18,-8.44 c 0.69,-0.4 1.56,-0.58 2.61,-0.52 0.98,0 1.77,0.33 2.35,1 0.58,0.67 0.87,1.49 0.87,2.48 z"
+         class="svg-fill-primary"
+         id="path3-4"
+         style="fill:#00fff1" />
+    </g>
+  </g>
+</svg>
