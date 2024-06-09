@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 512.00001 512.00001"
+   version="1.1"
+   width="512"
+   height="512"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{fill:#fd5;}.cls-2{fill:#262626;fill-rule:evenodd;}</style>
+  </defs>
+  <title
+     id="title1">number-one</title>
+  <g
+     id="g2"
+     transform="matrix(1.6890996,0,0,1.6890996,0.00168282,4.1480393e-5)">
+    <path
+       class="cls-1"
+       d="M 151.51415,8.8644875e-5 A 151.55997,151.55997 0 1 1 44.391449,44.387957 150.94349,150.94349 0 0 1 151.51415,8.8644875e-5 Z m 0,19.185421355125 A 132.32514,132.32514 0 1 1 19.189002,151.51067 132.30048,132.30048 0 0 1 151.51415,19.18551 Z"
+       id="path1"
+       style="stroke-width:2.46586" />
+    <path
+       class="cls-2"
+       d="M 151.51415,19.18551 A 132.32514,132.32514 0 1 1 19.189002,151.51067 132.30046,132.30046 0 0 1 151.51415,19.18551 Z"
+       id="path2"
+       style="stroke-width:2.46586" />
+    <polygon
+       class="cls-1"
+       points="60.44,51.03 60.19,51.03 50.82,56.63 50.82,46.77 61.36,40.33 72.06,40.33 72.06,83.13 60.44,83.13 "
+       id="polygon2"
+       transform="matrix(2.465992,0,0,2.465992,0.00357521,8.8644875e-5)" />
+  </g>
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>number-one</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
